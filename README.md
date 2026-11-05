@@ -1,5 +1,7 @@
 # Deskverse
 
+<img src="app/Resources/icon-1024.png" width="160" alt="Deskverse icon: a blue desk seen through a black hole becomes a ring of light">
+
 Your desks from every parallel universe. A minimal native macOS app that keeps every desk you have worked at and brings any of them back from one sentence.
 
 People keep dozens of tabs, terminals and AI agent sessions open because a visible tab is the only reminder they trust: close it and you lose your place. Deskverse saves each desk (Chrome tabs, Claude Code agent sessions, Obsidian notes, music), groups it by topic with no filing, and lays a whole desk back out on a blank macOS Desktop when you ask for it: browser left, notes top right, agents bottom right. Each desk carries a "Left off" line and a receipt of what it could not keep. It never closes, moves or edits anything, and it runs entirely on the Mac.
