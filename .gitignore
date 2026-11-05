@@ -1,0 +1,14 @@
+# build output
+build/
+app/.build/
+.DS_Store
+# private: Hao's own data, screenshots and note never go into git
+research/hao-note-*.md
+research/**/assets/hao-*
+# private or bulky, never public
+research/
+video/
+docs/video/voice/
+*.mov
+*.wav
+docs/private/
