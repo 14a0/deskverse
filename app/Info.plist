@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleIdentifier</key><string>com.14a0.eou</string>
-    <key>CFBundleName</key><string>EOU</string>
-    <key>CFBundleDisplayName</key><string>EOU</string>
+    <key>CFBundleName</key><string>Deskverse</string>
+    <key>CFBundleDisplayName</key><string>Deskverse</string>
     <key>CFBundleExecutable</key><string>EOU</string>
     <key>CFBundlePackageType</key><string>APPL</string>
     <key>CFBundleShortVersionString</key><string>0.1</string>
@@ -13,6 +13,6 @@
     <key>CFBundleIconFile</key><string>EOU</string>
     <key>LSUIElement</key><true/>
     <key>NSHighResolutionCapable</key><true/>
-    <key>NSAppleEventsUsageDescription</key><string>EOU reads your open tabs, terminal sessions, Finder folders and music to save each desk, and opens them again when you ask.</string>
+    <key>NSAppleEventsUsageDescription</key><string>Deskverse reads your open tabs, terminal sessions, Finder folders and music to save each desk, and opens them again when you ask.</string>
 </dict>
 </plist>

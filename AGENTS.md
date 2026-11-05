@@ -1,10 +1,10 @@
-# EOU: agent instructions
+# Deskverse (EOU): agent instructions
 
 One instruction file for every agent here. Claude Code reads it through `CLAUDE.md`, which is a link to this file; edit this file, never the link.
 
-## What EOU is
+## What Deskverse is
 
-A native macOS app that keeps every desk you have ever worked at and lays one out again when you ask. A desk is everything open for one piece of work: Chrome tabs, Claude Code sessions, Obsidian notes, Finder folders, the music playing. EOU saves desks by itself, groups them by topic, and a hotkey panel (like Spotlight, default Shift+Command+Space) finds a desk, or anything open right now, and brings it back.
+Deskverse (the folder and bundle are still called EOU; renaming the bundle id would reset macOS permissions and saved desks) is a native macOS app that keeps every desk you have ever worked at and lays one out again when you ask. A desk is everything open for one piece of work: Chrome tabs, Claude Code sessions, Obsidian notes, Finder folders, the music playing. EOU saves desks by itself, groups them by topic, and a hotkey panel (like Spotlight, default Shift+Command+Space) finds a desk, or anything open right now, and brings it back.
 
 Origin: Hao's note of 2026-11-05 (`research/hao-note-2026-11-05.md`): "desk is like the working memory for humans, and those are tabs on the computer ... you can have infinite parallel universes for your desk ... say: I have worked on the xx research before, bring this to my desk". The research behind it is in `research/Open loops and AI 2026-11-05/` (note, `report.html`, notes A to F).
 

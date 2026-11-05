@@ -20,10 +20,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         demoTake = DemoTake(launcher: launcher, store: store)
 
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-        statusItem.button?.image = NSImage(systemSymbolName: Profile.isMain ? "rectangle.stack" : "rectangle.stack.fill", accessibilityDescription: "EOU")
+        statusItem.button?.image = NSImage(systemSymbolName: Profile.isMain ? "rectangle.stack" : "rectangle.stack.fill", accessibilityDescription: "Deskverse")
         let menu = NSMenu()
         menu.delegate = self
-        menu.addItem(withTitle: "Open EOU (\(hotKey?.label ?? "no hotkey"))", action: #selector(openLauncher), keyEquivalent: "").target = self
+        menu.addItem(withTitle: "Open Deskverse (\(hotKey?.label ?? "no hotkey"))", action: #selector(openLauncher), keyEquivalent: "").target = self
         menu.addItem(withTitle: "Save this desk now", action: #selector(saveNow), keyEquivalent: "").target = self
         menu.addItem(withTitle: "Put this desk away", action: #selector(putAway), keyEquivalent: "").target = self
         menu.addItem(.separator())
@@ -32,7 +32,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menu.addItem(withTitle: "Show saved desks in Finder", action: #selector(showFolder), keyEquivalent: "").target = self
         menu.addItem(withTitle: Profile.isMain ? "Switch to demo profile" : "Switch to main profile", action: #selector(switchProfile), keyEquivalent: "").target = self
         menu.addItem(.separator())
-        menu.addItem(withTitle: "Quit EOU", action: #selector(quit), keyEquivalent: "q").target = self
+        menu.addItem(withTitle: "Quit Deskverse", action: #selector(quit), keyEquivalent: "q").target = self
         statusItem.menu = menu
 
         // Ask for Accessibility up front (moving restored windows and switching Desktops), unless already allowed.
